@@ -1,9 +1,6 @@
 # Disallow `const` in a `for-in` and `for-of` declarations (no-for-const)
 
-Prior to Firefox 51, using `const` in the declaration of a `for-of` loop raises
-a SyntaxError. Likewise, an error is raised in all versions for `for-in` loops.
-This rule disallows `const` in `for-of` and `for-in` loop declarations and
-recommends `let` instead.
+Prior to Firefox 51, using `const` in the declaration of a `for-of` loop raises a SyntaxError. Likewise, an error is raised in all versions for `for-in` loops. This rule disallows `const` in `for-of` and `for-in` loop declarations and recommends `let` instead.
 
 ## Rule Details
 

@@ -1,9 +1,17 @@
 {
-  "name": "eslint-plugin-banno-web",
-  "version": "0.1.0",
-  "description": "Custom ESLint rules for banno-web",
-  "private": true,
+  "name": "eslint-plugin-banno",
+  "version": "1.0.0",
+  "description": "ESLint rules for Banno projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Banno/eslint-plugin-banno.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Banno/eslint-plugin-banno/issues"
+  },
+  "homepage": "https://github.com/Banno/eslint-plugin-banno",
   "keywords": [
+    "banno",
     "eslint",
     "eslintplugin",
     "eslint-plugin"
@@ -20,8 +28,11 @@
     "eslint": "~3.11.1",
     "mocha": "^3.2.0"
   },
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  },
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "UNLICENSED"
+  "license": "Apache-2.0"
 }
