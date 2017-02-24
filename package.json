@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-banno-web",
+  "version": "0.1.0",
+  "description": "Custom ESLint rules for banno-web",
+  "private": true,
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Jordan Running",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.11.1",
+    "mocha": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "UNLICENSED"
+}
